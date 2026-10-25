@@ -1,7 +1,7 @@
 # ThreeMan_SW
 
 ## Description
-Firmware for the ThreeMan dice game (see [ThreeMan_HW](https://github.com/znibb/ThreeMan_HW)), running on an ATtiny85.
+Firmware for the ThreeMan dice game (see [ThreeMan](https://github.com/znibb/ThreeMan)), running on an ATtiny85.
 
 On every boot the firmware:
 1. Seeds the random number generator from ADC noise on the floating PB2 pin, mixed with a boot counter kept in EEPROM so that every boot gets a different seed.
